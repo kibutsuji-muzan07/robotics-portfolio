@@ -14,6 +14,7 @@ class Listener(Node):
 
 def main():
     rclpy.init()
-    rclpy.spin(Listener())
-    Listener.destroy_node()
+    node = Listener()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
