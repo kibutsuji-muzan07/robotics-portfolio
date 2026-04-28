@@ -113,7 +113,7 @@ DOF = m(N-1-J)+ /sum(f_i)
 ## 2.2.5 — Worked Example: Four-Bar Linkage
 
 The planar four-bar linkage:
-
+![alt text](<Screenshot 2026-04-29 015740.png>)
 - Consists of 4 links (including ground)
 - Connected in a closed loop with 4 revolute joints
 - Motion is confined to a plane → **m = 3**
