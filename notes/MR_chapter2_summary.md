@@ -98,7 +98,7 @@ This is the baseline before any constraints (joints) are applied.
 
 ## 2.2.4 — Grubler's Formula
 ```
-DOF = m(N-1-J)+ /sum(f_i)
+DOF = m(N - 1 - J) + Σfᵢ
 ```
 
 **Where:**
