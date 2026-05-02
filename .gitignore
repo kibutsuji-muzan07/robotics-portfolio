@@ -48,6 +48,12 @@ qtcreator-*
 .#*
 
 # Catkin custom files
+
+# Installers and large binaries
+*.sh
+*.exe
+*.dmg
+*.iso
 CATKIN_IGNORE
 
 # ipynb checkpoint files

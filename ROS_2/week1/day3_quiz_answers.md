@@ -1,7 +1,5 @@
 # Day 3 Quiz — Services, Parameters, Actions & Robotics Fundamentals
 
-**Student:** Sourabh
-**Program:** 16-Week Aerial Robotics / Robotics Software Engineer Career Transition
 **Topic:** ROS 2 Services, Parameters, Actions, and Configuration Space
 **Package Context:** `py_srvcli` / `services_demo` (AddTwoInts server with `scale_factor` parameter)
 
