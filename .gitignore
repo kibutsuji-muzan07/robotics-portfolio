@@ -57,6 +57,17 @@ qtcreator-*
 
 # GitHub agent and workflows
 .github/
+
+# VS Code settings
+.vscode/
+
+# YAML files
+*.yml
+*.yaml
+
+# Jupyter notebook checkpoints
+**/.ipynb_checkpoints/
+
 CATKIN_IGNORE
 
 # ipynb checkpoint files
