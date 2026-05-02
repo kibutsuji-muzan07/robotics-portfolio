@@ -54,6 +54,9 @@ qtcreator-*
 *.exe
 *.dmg
 *.iso
+
+# GitHub agent and workflows
+.github/
 CATKIN_IGNORE
 
 # ipynb checkpoint files
