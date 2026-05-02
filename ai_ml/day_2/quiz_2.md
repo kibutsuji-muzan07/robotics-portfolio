@@ -1,4 +1,3 @@
-```markdown
 # ML Evaluation Metrics — Q&A
 
 ---
