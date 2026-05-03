@@ -1,0 +1,152 @@
+{
+  "_schema_version": "2.0",
+  "_last_updated": "2026-04-25",
+  "_note": "This file is auto-updated by the tutor cron after each verified day completion. Do not edit manually.",
+
+  "student": {
+    "name": "Sourabh",
+    "goal": "Robotics Software / ML Engineer",
+    "target_role": "Voice-Controlled UAV Engineer",
+    "github": "kibutsuji-muzan07",
+    "repo": "robotics-portfolio",
+    "branch": "shadow_clone",
+    "start_date": "2026-04-10"
+  },
+
+  "summary": {
+    "streak": 4,
+    "longest_streak": 4,
+    "total_study_hours": 11.5,
+    "github_commits": 11,
+    "last_updated": "2026-04-25"
+  },
+
+  "tracks": [
+    {
+      "id": "track_a",
+      "label": "Track A",
+      "name": "Robotics / ROS 2 / UAV",
+      "color": "teal",
+      "icon": "Bot",
+      "schedule": "Odd calendar days",
+      "total_days": 56,
+      "current_day": 4,
+      "days_completed": 3,
+      "phase": 1,
+      "phase_name": "ROS 2 Foundations",
+      "days": [
+        {
+          "day": 1,
+          "theme": "Environment Setup + ROS 2 Jazzy",
+          "status": "completed",
+          "completed_date": "2026-04-11",
+          "quiz_score": 3,
+          "quiz_max": 3,
+          "study_hours": 2.5,
+          "github_files": ["week1/setupnotes.md"]
+        },
+        {
+          "day": 2,
+          "theme": "Publisher / Subscriber + rqt_graph",
+          "status": "completed",
+          "completed_date": "2026-04-18",
+          "quiz_score": 10,
+          "quiz_max": 10,
+          "study_hours": 3.0,
+          "github_files": ["week1/py_pubsub/py_pubsub/talker.py", "week1/py_pubsub/py_pubsub/listener.py"]
+        },
+        {
+          "day": 3,
+          "theme": "Services + Actions + MR Sec 2.1",
+          "status": "completed",
+          "completed_date": "2026-04-23",
+          "quiz_score": 10,
+          "quiz_max": 10,
+          "study_hours": 3.5,
+          "github_files": ["week1/py_srvcli/py_srvcli/service_member_function.py", "notes/MR_chapter2_summary.md"]
+        },
+        {
+          "day": 4,
+          "theme": "Launch Files + colcon Build + MR Sec 2.2",
+          "status": "in_progress",
+          "completed_date": null,
+          "quiz_score": null,
+          "quiz_max": 10,
+          "study_hours": null,
+          "github_files": []
+        }
+      ]
+    },
+    {
+      "id": "track_b",
+      "label": "Track B",
+      "name": "AI / ML / LLMs / RAG",
+      "color": "purple",
+      "icon": "BrainCircuit",
+      "schedule": "Even calendar days",
+      "total_days": 32,
+      "current_day": 2,
+      "days_completed": 1,
+      "phase": 1,
+      "phase_name": "DL + Classic ML for NLP",
+      "days": [
+        {
+          "day": 1,
+          "theme": "Python ML Ecosystem + scikit-learn Classifier",
+          "status": "completed",
+          "completed_date": "2026-04-25",
+          "quiz_score": 9,
+          "quiz_max": 10,
+          "study_hours": 2.5,
+          "github_files": ["ai_ml/day_1/iris_classifier.ipynb", "ai_ml/day_1/confusion_matrix.png"]
+        },
+        {
+          "day": 2,
+          "theme": "Logistic Regression + Precision/Recall/F1 + Sentiment",
+          "status": "not_started",
+          "completed_date": null,
+          "quiz_score": null,
+          "quiz_max": 10,
+          "study_hours": null,
+          "github_files": []
+        }
+      ]
+    }
+  ],
+
+  "coursera": [
+    {
+      "name": "Modern Robotics",
+      "provider": "Northwestern",
+      "current_week": 1,
+      "total_weeks": 6,
+      "track": "A",
+      "status": "in_progress"
+    },
+    {
+      "name": "Math for ML",
+      "provider": "Imperial College",
+      "current_week": 1,
+      "total_weeks": 5,
+      "track": "B",
+      "status": "in_progress"
+    },
+    {
+      "name": "Computer Vision Basics",
+      "provider": "SUNY Buffalo",
+      "current_week": 1,
+      "total_weeks": 4,
+      "track": "B",
+      "status": "in_progress"
+    }
+  ],
+
+  "activity": [
+    { "date": "2026-04-25", "track": "B", "day": 1, "action": "day_completed", "detail": "iris_classifier.ipynb — 97.5%/100% accuracy. Quiz 9/10." },
+    { "date": "2026-04-25", "track": "A", "day": 4, "action": "briefing_sent", "detail": "Launch files + colcon build + MR Sec 2.2" },
+    { "date": "2026-04-23", "track": "A", "day": 3, "action": "day_completed", "detail": "Services + Actions CLI + MR Sec 2.1. Quiz 10/10." },
+    { "date": "2026-04-22", "track": "B", "day": 1, "action": "briefing_sent", "detail": "Track B Day 1 briefing sent." },
+    { "date": "2026-04-18", "track": "A", "day": 2, "action": "day_completed", "detail": "Publisher/Subscriber. Bug fixed. Quiz 10/10." },
+    { "date": "2026-04-11", "track": "A", "day": 1, "action": "day_completed", "detail": "ROS 2 Jazzy installed. Quiz 3/3." }
+  ]
+}

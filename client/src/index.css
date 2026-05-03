@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 224 71% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 4%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71% 4%;
+    --primary: 186 78% 38%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 40% 94%;
+    --secondary-foreground: 224 71% 4%;
+    --muted: 210 40% 93%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 210 40% 90%;
+    --accent-foreground: 224 71% 4%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 88%;
+    --input: 220 13% 88%;
+    --ring: 186 78% 38%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 20% 9%;
+    --foreground: 210 20% 95%;
+    --card: 224 20% 12%;
+    --card-foreground: 210 20% 95%;
+    --popover: 224 20% 12%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 186 78% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 224 20% 16%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 224 20% 16%;
+    --muted-foreground: 215 16% 55%;
+    --accent: 224 20% 18%;
+    --accent-foreground: 210 20% 95%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 224 20% 20%;
+    --input: 224 20% 18%;
+    --ring: 186 78% 42%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+@layer utilities {
+  .skeleton {
+    @apply animate-pulse bg-muted rounded;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground)); }
