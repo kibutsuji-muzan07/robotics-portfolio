@@ -3,7 +3,7 @@ name: Deploy Portfolio Dashboard to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - robotics-portfolio-dashboard
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
 
