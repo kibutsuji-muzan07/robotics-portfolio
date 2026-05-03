@@ -1,0 +1,231 @@
+{
+  "current_day": 4,
+  "current_week": 1,
+  "current_phase": 1,
+  "day_status": "completed",
+  "last_interaction_date": "2026-05-03",
+  "start_date": "2026-04-10",
+  "briefing_sent_date": "2026-04-25",
+  "quiz_state": "none",
+  "difficulty_level": "normal",
+  "student_profile": "TRUE BEGINNER \u2014 needs theory (what/why/intuition) before any code tasks. Never assume prior ROS knowledge. Theory-first, gated progression.",
+  "progression_policy": "STRICT GATED \u2014 day not complete until: (1) GitHub proof verified (real files), (2) quiz answers uploaded to GitHub and scored. Never mark complete on self-declaration alone.",
+  "github_repo": "kibutsuji-muzan07/robotics-portfolio",
+  "github_branch": "shadow_clone",
+  "quiz_scores": [
+    {
+      "day": 1,
+      "score": 3,
+      "max_score": 3,
+      "date": "2026-04-11",
+      "pct": 100
+    },
+    {
+      "day": 2,
+      "score": 10,
+      "max_score": 10,
+      "date": "2026-04-18",
+      "pct": 100
+    },
+    {
+      "day": 3,
+      "score": 10,
+      "max_score": 10,
+      "date": "2026-04-23",
+      "pct": 100
+    }
+  ],
+  "days_completed": [
+    1,
+    2,
+    3
+  ],
+  "days_missed": [],
+  "streak": 5,
+  "longest_streak": 5,
+  "total_study_hours": 13.5,
+  "coursera_progress": {
+    "modern_robotics": {
+      "current_course": 1,
+      "current_week": 1,
+      "status": "week1_done"
+    },
+    "math_for_ml": {
+      "current_course": "linear_algebra",
+      "current_week": 1,
+      "status": "in_progress"
+    },
+    "computer_vision_basics": {
+      "current_week": 1,
+      "status": "in_progress"
+    }
+  },
+  "projects": {
+    "voice_controlled_uav": {
+      "status": "not_started",
+      "phase": 0
+    },
+    "terrain_following_uav": {
+      "status": "not_started",
+      "phase": 0
+    },
+    "arduino_ros2_robot": {
+      "status": "not_started",
+      "phase": 0
+    }
+  },
+  "certifications": [],
+  "github_commits": 14,
+  "linkedin_posts": 0,
+  "day2_verification": {
+    "talker_py": "VERIFIED",
+    "listener_py": "VERIFIED \u2014 bug fixed",
+    "rosgraph_png": "VERIFIED \u2014 26KB",
+    "turtlesim_png": "VERIFIED \u2014 221KB",
+    "setup_py": "VERIFIED",
+    "setupnotes_md": "VERIFIED \u2014 4142 bytes",
+    "day2_quiz_answers_md": "VERIFIED \u2014 10/10"
+  },
+  "day3_proof_required": {
+    "services_package": "week1/py_srvcli/ \u2014 VERIFIED Apr 22",
+    "mr_section_2_1_notes": "notes/MR_chapter2_summary.md \u2014 section 2.1 only (p.12-15): definition of DOF for a rigid body, your own words, 100+ words",
+    "actions_cli_observation": "week1/day3_actions_notes.md \u2014 3-5 sentences describing what you observed (goal/feedback/result)",
+    "day3_quiz_answers": "week1/day3_quiz_answers.md \u2014 6 answers, scored >= 6/10"
+  },
+  "difficulty_decision_day2": "Score 10/10. Standard pace. Day 3 proceeds at normal difficulty.",
+  "notes": {
+    "day1": "VERIFIED COMPLETE. Ubuntu 24.04 + ROS 2 Jazzy, Turtlesim, GitHub, Modern Robotics W1. Quiz 3/3.",
+    "day2": "FULLY VERIFIED Apr 18. All files real and non-trivial. Quiz 10/10.",
+    "day3": "FULLY VERIFIED Apr 23. All 6 files real and non-trivial. MR notes derived from first principles. Actions notes comprehensive reference. Quiz 10/10.",
+    "tutor_approach": "Theory-first. Why \u2192 What \u2192 Intuition \u2192 Terms \u2192 Practice. GitHub is source of truth.",
+    "delivery_style": "UPDATED Apr 25: All briefings (both tracks) must be delivered in-chat as step-by-step instructions, NOT just notifications. Tasks must be small, instruction-based, realistically completable in one day. Quizzes test only what was done that day. This matches Track B Day 1 style that student enjoyed.",
+    "run_log": [
+      "2026-04-21: Run #13. Track A Day 3 still pending. Catch-up briefing sent.",
+      "2026-04-22: User confirmed Task 1 done. Verified: py_srvcli server+client+setup.py all real code. Task 2 (MR notes) and Task 3 (Actions CLI) still pending. Track B Day 1 briefing sent. MR Ch.2 split into per-section tasks across days.",
+      "2026-04-22: Run #14 (scheduled 8:30 PM IST). Track B Day 1 briefing already sent at 8:25 PM by main agent. Duplicate send skipped. State unchanged. Awaiting student completion signal for Track A Day 3 and Track B Day 1.",
+      "2026-04-23: Run #15 (6:30 AM IST). calendar_day_count incremented to 5 (odd = Track A). Track A Day 3 still pending (Tasks 2 + 3 + quiz outstanding). Track B Day 1 still pending. Catch-up briefing sent for Track A Day 3 with full theory for Section 2.1 and Actions CLI.",
+      "2026-04-23: Run #15 catch-up sent 6:30 AM. User claimed Day 3 complete at 9:28 PM. Verified all files: py_srvcli (Task 1, prev verified), MR_chapter2_summary.md (4210 bytes, Section 2.1 from first principles), day3_action_notes.md (10125 bytes, comprehensive), day3_quiz_answers.md (6802 bytes, 10/10). Day 3 MARKED COMPLETE. Streak: 3. Advancing to Day 4 Track A. Track B Day 1 still pending.",
+      "2026-04-24: Run #16 (6:30 AM IST). calendar_day_count=6 (even = Track B). Track B Day 1 still pending. Catch-up briefing sent with full concept explanations and step-by-step task instructions. Awaiting completion signal.",
+      "2026-04-25: Track B Day 1 VERIFIED COMPLETE (3:17 AM IST). All 3 files verified: iris_classifier.ipynb (33527 bytes, real outputs 97.5%/100% accuracy), confusion_matrix.png (30656 bytes), quiz_1.md (2357 bytes, all 5 answered correctly). Quiz score: 9/10. calendar_day_count incremented to 7 (odd = Track A). Streak: 4. Track B advancing to Day 2. Day 4 Track A briefing delivered in-chat. Style updated: all future Track A briefings match Track B Day 1 style \u2014 in-chat, step-by-step, small tasks.",
+      "2026-04-25: Run #17 (6:30 AM IST). calendar_day_count=7 (odd = Track A). Day 4 briefing already delivered in-chat at 3:17 AM by main agent. Sent reminder notification with full task summary. Awaiting Day 4 completion signal from student.",
+      "2026-04-29: Run #18 (6:30 AM IST / 9:00 PM EDT April 28). calendar_day_count=7 (odd = Track A). Day 4 still pending \u2014 no completion signal received in 3 days (Apr 25-28). Student may have been busy. Sent full catch-up notification with complete task instructions and quiz. Awaiting Day 4 completion signal.",
+      "2026-04-30: Run #19 (6:30 AM IST / 9:00 PM EDT April 29). calendar_day_count=7 (odd = Track A). Day 4 still pending \u2014 4 days no signal. Sent shorter catch-up reminder with exact file checklist and quiz questions. Awaiting Day 4 completion signal.",
+      "2026-05-01: Run #20 (6:30 AM IST / 9:01 PM EDT April 30). calendar_day_count=7 (odd = Track A). Day 4 still pending \u2014 5 days no signal. Sent brief human-toned ping offering help with blockers rather than repeating full briefing again. Awaiting Day 4 completion signal.",
+      "2026-05-02: User decision \u2014 Track A PAUSED. Pivoting to Track B daily sprint for AI Engineering job search. 2-month goal: deployed RAG on AWS. Track B runs every day from now. Rewrote trackB_master_plan.md with 8-week structured plan. Track B Day 2 briefing delivered in-chat. Cron updated to daily Track B mode.",
+      "2026-05-02: Run #21 (6:30 AM IST / 9:01 PM EDT May 1). Sprint mode active. Track B Day 2 not_started \u2014 briefing was just delivered in-chat a few hours earlier. Sent brief reminder notification with task summary. last_briefing_date updated to 2026-05-02. Awaiting Day B-2 completion signal.",
+      "2026-05-03: Day B-2 VERIFIED COMPLETE (1:37 AM IST). Files verified: sentiment_metrics.ipynb (39095 bytes, real outputs 97% precision/recall), confusion_matrix.png (23925 bytes), quiz_2.md (2480 bytes). Quiz: 9/10. Streak: 5. Advancing to Day B-3 (PyTorch Tensors + Autograd).",
+      "2026-05-02 (9 PM EDT / run #22): Track B Day B-3 not_started. Full briefing already delivered by main agent earlier today (May 3 IST). Sent brief reminder notification only. No state change needed."
+    ]
+  },
+  "track_b": {
+    "current_day": 3,
+    "day_status": "not_started",
+    "last_briefing_date": "2026-05-03",
+    "quiz_state": "none",
+    "quiz_scores": [
+      {
+        "day": 1,
+        "score": 9,
+        "max_score": 10,
+        "date": "2026-04-25",
+        "pct": 90
+      },
+      {
+        "day": 2,
+        "score": 9,
+        "max_score": 10,
+        "date": "2026-05-03",
+        "pct": 90
+      }
+    ],
+    "days_completed": [
+      1,
+      2
+    ],
+    "github_folder": "ai_ml/",
+    "current_phase": 1,
+    "phase_name": "DL + Classic ML for NLP",
+    "notes": {
+      "day1": "VERIFIED COMPLETE Apr 25. iris_classifier.ipynb \u2014 15 cells, real outputs (97.5% train, 100% test), confusion_matrix.png saved. quiz_1.md \u2014 9/10 (Q4 used hypothetical example since model was perfect, acceptable). Files at ai_ml/day_1/ (naming variation from plan, accepted).",
+      "day2": "VERIFIED COMPLETE May 3. sentiment_metrics.ipynb (39095 bytes, real outputs \u2014 97% precision/recall on 20 Newsgroups baseball vs medical). confusion_matrix.png (23925 bytes, real image). quiz_2.md (2480 bytes, 5 real answers). Quiz: 9/10. Q5 threshold-lowering example was outstanding."
+    }
+  },
+  "dual_track_mode": false,
+  "active_track": "B",
+  "track_a_status": "PAUSED",
+  "track_a_paused_at_day": 4,
+  "track_a_pause_reason": "Student pivoting to AI Engineering job search. 2-month focused sprint on Track B (RAG + AWS deployment). Track A resumes after job is secured.",
+  "track_a_pause_date": "2026-05-02",
+  "track_a_label": "Robotics / ROS 2 / UAV (PAUSED)",
+  "track_b_label": "AI/ML, LLMs, RAG, Deployment (DAILY \u2014 runs every day)",
+  "sprint_mode": true,
+  "sprint_goal": "Deployed RAG system on AWS + AI Engineering interview readiness",
+  "sprint_start": "2026-05-02",
+  "sprint_end_target": "2026-06-28",
+  "calendar_day_count": 7,
+  "day3_partial_verification": {
+    "task1_services_package": {
+      "status": "VERIFIED",
+      "package_name": "py_srvcli (acceptable alias for services_demo)",
+      "server_file": "week1/py_srvcli/py_srvcli/service_member_function.py \u2014 VERIFIED: declare_parameter, create_service, scale_factor used in callback. 2066 bytes. Real code.",
+      "client_file": "week1/py_srvcli/py_srvcli/client_member_function.py \u2014 VERIFIED: async client, wait_for_service, call_async, prints result. 1068 bytes.",
+      "setup_py": "week1/py_srvcli/setup.py \u2014 VERIFIED: entry_points for both service + client executables. 834 bytes.",
+      "verified_date": "2026-04-22"
+    },
+    "task2_mr_chapter2_notes": {
+      "status": "VERIFIED",
+      "file": "notes/MR_chapter2_summary.md",
+      "size_bytes": 4210,
+      "note": "Section 2.1 derived from first principles using constraint-counting. Planar (3 DOF) and spatial (6 DOF) both covered. Self-check questions included. Excellent."
+    },
+    "task3_actions_cli": {
+      "status": "VERIFIED",
+      "file": "week1/day3_action_notes.md",
+      "size_bytes": 10125,
+      "note": "Went far beyond observation \u2014 full reference document. Goal/feedback/result lifecycle, CLI commands, comparison table, nav example. Exceptional."
+    }
+  },
+  "mr_chapter2_reading_plan": {
+    "policy": "Split Chapter 2 into one section per Track A day. Read, understand, write notes. No rushing.",
+    "sections": [
+      {
+        "section": "2.1 DOF of a Rigid Body",
+        "pages": "p.12-15",
+        "assigned_track_a_day": 3,
+        "status": "completed"
+      },
+      {
+        "section": "2.2 DOF of a Robot (2.2.1 Joints, 2.2.2 Grubler Formula)",
+        "pages": "p.15-23",
+        "assigned_track_a_day": 4,
+        "status": "not_started"
+      },
+      {
+        "section": "2.3 C-Space Topology + Representation",
+        "pages": "p.23-29",
+        "assigned_track_a_day": 5,
+        "status": "not_started"
+      },
+      {
+        "section": "2.4 Configuration and Velocity Constraints",
+        "pages": "p.29-32",
+        "assigned_track_a_day": 6,
+        "status": "not_started"
+      },
+      {
+        "section": "2.5 Task Space and Workspace + 2.6 Summary",
+        "pages": "p.32-38",
+        "assigned_track_a_day": 7,
+        "status": "not_started"
+      }
+    ],
+    "notes_file": "notes/MR_chapter2_summary.md",
+    "note": "Append each section to the same notes file across days. Full chapter covered by Day 7."
+  },
+  "day4_proof_required": {
+    "mr_section_2_2_notes": "notes/MR_chapter2_summary.md \u2014 append section 2.2 (DOF of a Robot, Joints, Grubler formula). 100+ words in own language.",
+    "launch_file": "week1/launch_demo/launch/my_robot_launch.py \u2014 a launch file that starts at least 2 nodes together",
+    "colcon_build_log": "week1/day4_colcon_notes.md \u2014 notes on what colcon build does and what each command means",
+    "day4_quiz_answers": "week1/day4_quiz_answers.md \u2014 answers to Day 4 quiz questions, scored >= 6/10"
+  }
+}
