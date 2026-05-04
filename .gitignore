@@ -72,3 +72,5 @@ CATKIN_IGNORE
 
 # ipynb checkpoint files
 ai_ml/day_1/.ipynb_checkpoints/
+dist/
+node_modules/
