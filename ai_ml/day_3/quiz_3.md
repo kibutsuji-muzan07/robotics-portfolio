@@ -50,6 +50,7 @@ Because the tensor tends to keep the calculated gradient on the number. In the n
 **Ans:** The learning rate controls how big a step you take when updating weights during gradient descent. It's the multiplier applied to the gradient: `w -= lr * w.grad`.
 
 *If Learning Rate is too high*
+
 **Problem: Divergence and Oscillation**
 
 - The weight updates become too large, causing the optimizer to "jump over" the optimal value
@@ -58,6 +59,7 @@ Because the tensor tends to keep the calculated gradient on the number. In the n
 - Training becomes unstable and diverges - the model never converges
 
 *If Learning Rate is Too Low*
+
 **Problem: Extremely Slow Convergence**
 
 - Weight updates are tiny, making progress extremely slow
