@@ -45,20 +45,20 @@ Because the tensor tends to keep the calculated gradient on the number. In the n
 
 ---
 
-# Q5. What is the learning rate and what goes wrong if you set it too high (e.g. `lr = 10.0`)? What if you set it too low (e.g. `lr = 0.000001`)?
+**Q5. What is the learning rate and what goes wrong if you set it too high (e.g. `lr = 10.0`)? What if you set it too low (e.g. `lr = 0.000001`)?**
 
 **Ans:** The learning rate controls how big a step you take when updating weights during gradient descent. It's the multiplier applied to the gradient: `w -= lr * w.grad`.
 
-## If you set it too high
-### Problem: Divergence and Oscillation
+*If Learning Rate is too high*
+**Problem: Divergence and Oscillation**
 
 - The weight updates become too large, causing the optimizer to "jump over" the optimal value
 - The model oscillates wildly around the minimum, bouncing from one side of the valley to the other
 - Loss increases instead of decreases, potentially exploding to infinity
 - Training becomes unstable and diverges - the model never converges
 
-## If Learning Rate is Too Low
-### Problem: Extremely Slow Convergence
+*If Learning Rate is Too Low*
+**Problem: Extremely Slow Convergence**
 
 - Weight updates are tiny, making progress extremely slow
 - Training requires many more epochs to reach the same performance
