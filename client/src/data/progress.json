@@ -1,22 +1,21 @@
 {
   "_schema_version": "2.0",
-  "_last_updated": "2026-05-03",
-  "_note": "This file is auto-updated by the tutor cron after each verified day completion. Do not edit manually.",
+  "_last_updated": "2026-05-05",
+  "_note": "Auto-updated by tutor cron after each verified day completion.",
   "student": {
     "name": "Sourabh",
     "goal": "AI Engineer (RAG + AWS)",
-    "target_role": "AI / ML Engineer",
     "github": "kibutsuji-muzan07",
     "repo": "robotics-portfolio",
     "branch": "shadow_clone",
     "start_date": "2026-04-10"
   },
   "summary": {
-    "streak": 5,
-    "longest_streak": 5,
-    "total_study_hours": 13.5,
-    "github_commits": 14,
-    "last_updated": "2026-05-03"
+    "streak": 6,
+    "longest_streak": 6,
+    "total_study_hours": 15.5,
+    "github_commits": 17,
+    "last_updated": "2026-05-05"
   },
   "tracks": [
     {
@@ -32,8 +31,6 @@
       "total_days": 56,
       "current_day": 4,
       "days_completed": 3,
-      "phase": 1,
-      "phase_name": "ROS 2 Foundations",
       "days": [
         {
           "day": 1,
@@ -41,11 +38,7 @@
           "status": "completed",
           "completed_date": "2026-04-11",
           "quiz_score": 3,
-          "quiz_max": 3,
-          "study_hours": 2.5,
-          "github_files": [
-            "week1/setupnotes.md"
-          ]
+          "quiz_max": 3
         },
         {
           "day": 2,
@@ -53,12 +46,7 @@
           "status": "completed",
           "completed_date": "2026-04-18",
           "quiz_score": 10,
-          "quiz_max": 10,
-          "study_hours": 3.0,
-          "github_files": [
-            "week1/py_pubsub/py_pubsub/talker.py",
-            "week1/py_pubsub/py_pubsub/listener.py"
-          ]
+          "quiz_max": 10
         },
         {
           "day": 3,
@@ -66,12 +54,7 @@
           "status": "completed",
           "completed_date": "2026-04-23",
           "quiz_score": 10,
-          "quiz_max": 10,
-          "study_hours": 3.5,
-          "github_files": [
-            "week1/py_srvcli/py_srvcli/service_member_function.py",
-            "notes/MR_chapter2_summary.md"
-          ]
+          "quiz_max": 10
         },
         {
           "day": 4,
@@ -79,9 +62,7 @@
           "status": "not_started",
           "completed_date": null,
           "quiz_score": null,
-          "quiz_max": 10,
-          "study_hours": null,
-          "github_files": []
+          "quiz_max": 10
         }
       ]
     },
@@ -98,10 +79,8 @@
       "sprint_end_target": "2026-06-28",
       "sprint_goal": "Deployed RAG system on AWS + AI Engineering interview readiness",
       "total_days": 56,
-      "current_day": 3,
-      "days_completed": 2,
-      "phase": 1,
-      "phase_name": "ML Foundations + Python Ecosystem",
+      "current_day": 4,
+      "days_completed": 3,
       "days": [
         {
           "day": 1,
@@ -110,11 +89,7 @@
           "completed_date": "2026-04-25",
           "quiz_score": 9,
           "quiz_max": 10,
-          "study_hours": 2.5,
-          "github_files": [
-            "ai_ml/day_1/iris_classifier.ipynb",
-            "ai_ml/day_1/confusion_matrix.png"
-          ]
+          "study_hours": 2.5
         },
         {
           "day": 2,
@@ -123,22 +98,25 @@
           "completed_date": "2026-05-03",
           "quiz_score": 9,
           "quiz_max": 10,
-          "study_hours": 2.0,
-          "github_files": [
-            "ai_ml/day_2/sentiment_metrics.ipynb",
-            "ai_ml/day_2/confusion_matrix.png",
-            "ai_ml/day_2/quiz_2.md"
-          ]
+          "study_hours": 2.0
         },
         {
           "day": 3,
           "theme": "PyTorch Tensors + Autograd",
+          "status": "completed",
+          "completed_date": "2026-05-05",
+          "quiz_score": 10,
+          "quiz_max": 10,
+          "study_hours": 2.0
+        },
+        {
+          "day": 4,
+          "theme": "PyTorch nn.Module + Training Loop",
           "status": "not_started",
           "completed_date": null,
           "quiz_score": null,
           "quiz_max": 10,
-          "study_hours": null,
-          "github_files": []
+          "study_hours": null
         }
       ]
     }
@@ -147,29 +125,30 @@
     {
       "name": "Modern Robotics",
       "provider": "Northwestern",
-      "current_week": 1,
-      "total_weeks": 6,
       "track": "A",
       "status": "paused"
     },
     {
       "name": "Math for ML",
       "provider": "Imperial College",
-      "current_week": 1,
-      "total_weeks": 5,
       "track": "B",
       "status": "in_progress"
     },
     {
       "name": "Computer Vision Basics",
       "provider": "SUNY Buffalo",
-      "current_week": 1,
-      "total_weeks": 4,
       "track": "B",
       "status": "in_progress"
     }
   ],
   "activity": [
+    {
+      "date": "2026-05-05",
+      "track": "B",
+      "day": 3,
+      "action": "day_completed",
+      "detail": "autograd_demo.ipynb \u2014 w=2.9951, b=1.9942 after 200 epochs. Quiz 10/10."
+    },
     {
       "date": "2026-05-03",
       "track": "B",
@@ -178,25 +157,11 @@
       "detail": "sentiment_metrics.ipynb \u2014 97% precision/recall on 20 Newsgroups. Quiz 9/10."
     },
     {
-      "date": "2026-05-02",
-      "track": "B",
-      "day": 2,
-      "action": "briefing_sent",
-      "detail": "Precision, Recall, F1, Confusion Matrix briefing sent."
-    },
-    {
       "date": "2026-04-25",
       "track": "B",
       "day": 1,
       "action": "day_completed",
       "detail": "iris_classifier.ipynb \u2014 97.5%/100% accuracy. Quiz 9/10."
-    },
-    {
-      "date": "2026-04-25",
-      "track": "A",
-      "day": 4,
-      "action": "briefing_sent",
-      "detail": "Launch files + colcon build + MR Sec 2.2 (Track A now paused)"
     },
     {
       "date": "2026-04-23",
