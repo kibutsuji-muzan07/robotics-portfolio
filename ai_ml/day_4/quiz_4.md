@@ -1,4 +1,3 @@
-````markdown
 # PyTorch nn.Module & Training Loop — Q&A
 
 ---
