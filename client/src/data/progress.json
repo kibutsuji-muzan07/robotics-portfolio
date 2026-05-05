@@ -11,10 +11,10 @@
     "start_date": "2026-04-10"
   },
   "summary": {
-    "streak": 6,
-    "longest_streak": 6,
-    "total_study_hours": 15.5,
-    "github_commits": 17,
+    "streak": 7,
+    "longest_streak": 7,
+    "total_study_hours": 17.5,
+    "github_commits": 20,
     "last_updated": "2026-05-05"
   },
   "tracks": [
@@ -25,9 +25,8 @@
       "color": "teal",
       "icon": "Bot",
       "status": "PAUSED",
-      "pause_reason": "Student focusing on AI Engineering job search. Resumes after job secured.",
+      "pause_reason": "Student focusing on AI Engineering job search.",
       "paused_at_day": 4,
-      "schedule": "PAUSED",
       "total_days": 56,
       "current_day": 4,
       "days_completed": 3,
@@ -58,7 +57,7 @@
         },
         {
           "day": 4,
-          "theme": "Launch Files + colcon Build + MR Sec 2.2",
+          "theme": "Launch Files + colcon Build",
           "status": "not_started",
           "completed_date": null,
           "quiz_score": null,
@@ -73,18 +72,18 @@
       "color": "purple",
       "icon": "BrainCircuit",
       "status": "ACTIVE",
-      "schedule": "Daily sprint \u2014 every day",
+      "schedule": "Daily sprint",
       "sprint_mode": true,
       "sprint_start": "2026-05-02",
       "sprint_end_target": "2026-06-28",
       "sprint_goal": "Deployed RAG system on AWS + AI Engineering interview readiness",
       "total_days": 56,
-      "current_day": 4,
-      "days_completed": 3,
+      "current_day": 5,
+      "days_completed": 4,
       "days": [
         {
           "day": 1,
-          "theme": "Python ML Ecosystem + scikit-learn Classifier",
+          "theme": "Python ML Ecosystem + scikit-learn",
           "status": "completed",
           "completed_date": "2026-04-25",
           "quiz_score": 9,
@@ -112,6 +111,15 @@
         {
           "day": 4,
           "theme": "PyTorch nn.Module + Training Loop",
+          "status": "completed",
+          "completed_date": "2026-05-05",
+          "quiz_score": 10,
+          "quiz_max": 10,
+          "study_hours": 2.0
+        },
+        {
+          "day": 5,
+          "theme": "Word Embeddings \u2014 From Bag of Words to Meaning",
           "status": "not_started",
           "completed_date": null,
           "quiz_score": null,
@@ -145,6 +153,13 @@
     {
       "date": "2026-05-05",
       "track": "B",
+      "day": 4,
+      "action": "day_completed",
+      "detail": "mlp_sentiment.ipynb \u2014 Test Accuracy 93.44%, loss 0.629\u21920.031. Quiz 10/10."
+    },
+    {
+      "date": "2026-05-05",
+      "track": "B",
       "day": 3,
       "action": "day_completed",
       "detail": "autograd_demo.ipynb \u2014 w=2.9951, b=1.9942 after 200 epochs. Quiz 10/10."
@@ -154,7 +169,7 @@
       "track": "B",
       "day": 2,
       "action": "day_completed",
-      "detail": "sentiment_metrics.ipynb \u2014 97% precision/recall on 20 Newsgroups. Quiz 9/10."
+      "detail": "sentiment_metrics.ipynb \u2014 97% precision/recall. Quiz 9/10."
     },
     {
       "date": "2026-04-25",
@@ -168,7 +183,7 @@
       "track": "A",
       "day": 3,
       "action": "day_completed",
-      "detail": "Services + Actions CLI + MR Sec 2.1. Quiz 10/10."
+      "detail": "Services + Actions + MR Sec 2.1. Quiz 10/10."
     },
     {
       "date": "2026-04-18",
