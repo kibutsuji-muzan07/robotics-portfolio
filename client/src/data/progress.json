@@ -1,6 +1,6 @@
 {
   "_schema_version": "2.0",
-  "_last_updated": "2026-05-05",
+  "_last_updated": "2026-05-08",
   "_note": "Auto-updated by tutor cron after each verified day completion.",
   "student": {
     "name": "Sourabh",
@@ -11,11 +11,11 @@
     "start_date": "2026-04-10"
   },
   "summary": {
-    "streak": 7,
-    "longest_streak": 7,
-    "total_study_hours": 17.5,
-    "github_commits": 20,
-    "last_updated": "2026-05-05"
+    "streak": 8,
+    "longest_streak": 8,
+    "total_study_hours": 19.5,
+    "github_commits": 22,
+    "last_updated": "2026-05-08"
   },
   "tracks": [
     {
@@ -78,8 +78,8 @@
       "sprint_end_target": "2026-06-28",
       "sprint_goal": "Deployed RAG system on AWS + AI Engineering interview readiness",
       "total_days": 56,
-      "current_day": 5,
-      "days_completed": 4,
+      "current_day": 6,
+      "days_completed": 5,
       "days": [
         {
           "day": 1,
@@ -87,8 +87,7 @@
           "status": "completed",
           "completed_date": "2026-04-25",
           "quiz_score": 9,
-          "quiz_max": 10,
-          "study_hours": 2.5
+          "quiz_max": 10
         },
         {
           "day": 2,
@@ -96,8 +95,7 @@
           "status": "completed",
           "completed_date": "2026-05-03",
           "quiz_score": 9,
-          "quiz_max": 10,
-          "study_hours": 2.0
+          "quiz_max": 10
         },
         {
           "day": 3,
@@ -105,8 +103,7 @@
           "status": "completed",
           "completed_date": "2026-05-05",
           "quiz_score": 10,
-          "quiz_max": 10,
-          "study_hours": 2.0
+          "quiz_max": 10
         },
         {
           "day": 4,
@@ -114,17 +111,23 @@
           "status": "completed",
           "completed_date": "2026-05-05",
           "quiz_score": 10,
-          "quiz_max": 10,
-          "study_hours": 2.0
+          "quiz_max": 10
         },
         {
           "day": 5,
-          "theme": "Word Embeddings \u2014 From Bag of Words to Meaning",
+          "theme": "Word Embeddings + GloVe + Cosine Similarity",
+          "status": "completed",
+          "completed_date": "2026-05-08",
+          "quiz_score": 10,
+          "quiz_max": 10
+        },
+        {
+          "day": 6,
+          "theme": "Sentence Embeddings + FAISS Intro",
           "status": "not_started",
           "completed_date": null,
           "quiz_score": null,
-          "quiz_max": 10,
-          "study_hours": null
+          "quiz_max": 10
         }
       ]
     }
@@ -151,53 +154,39 @@
   ],
   "activity": [
     {
+      "date": "2026-05-08",
+      "track": "B",
+      "day": 5,
+      "action": "day_completed",
+      "detail": "GloVe embeddings loaded (400k words), cosine similarity, king-man+woman=queen. Quiz 10/10."
+    },
+    {
       "date": "2026-05-05",
       "track": "B",
       "day": 4,
       "action": "day_completed",
-      "detail": "mlp_sentiment.ipynb \u2014 Test Accuracy 93.44%, loss 0.629\u21920.031. Quiz 10/10."
+      "detail": "MLP classifier 93.44% accuracy, loss 0.629\u21920.031. Quiz 10/10."
     },
     {
       "date": "2026-05-05",
       "track": "B",
       "day": 3,
       "action": "day_completed",
-      "detail": "autograd_demo.ipynb \u2014 w=2.9951, b=1.9942 after 200 epochs. Quiz 10/10."
+      "detail": "Autograd: w=2.9951, b=1.9942 after 200 epochs. Quiz 10/10."
     },
     {
       "date": "2026-05-03",
       "track": "B",
       "day": 2,
       "action": "day_completed",
-      "detail": "sentiment_metrics.ipynb \u2014 97% precision/recall. Quiz 9/10."
+      "detail": "97% precision/recall on 20 Newsgroups. Quiz 9/10."
     },
     {
       "date": "2026-04-25",
       "track": "B",
       "day": 1,
       "action": "day_completed",
-      "detail": "iris_classifier.ipynb \u2014 97.5%/100% accuracy. Quiz 9/10."
-    },
-    {
-      "date": "2026-04-23",
-      "track": "A",
-      "day": 3,
-      "action": "day_completed",
-      "detail": "Services + Actions + MR Sec 2.1. Quiz 10/10."
-    },
-    {
-      "date": "2026-04-18",
-      "track": "A",
-      "day": 2,
-      "action": "day_completed",
-      "detail": "Publisher/Subscriber. Bug fixed. Quiz 10/10."
-    },
-    {
-      "date": "2026-04-11",
-      "track": "A",
-      "day": 1,
-      "action": "day_completed",
-      "detail": "ROS 2 Jazzy installed. Quiz 3/3."
+      "detail": "iris_classifier, 97.5% accuracy. Quiz 9/10."
     }
   ]
 }
